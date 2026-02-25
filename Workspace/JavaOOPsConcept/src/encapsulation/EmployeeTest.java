@@ -1,0 +1,16 @@
+package encapsulation;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		name = "Ravi";
+//		salary = 45000;
+		Employee emp1 = new Employee();
+//		emp1.name  = "John";
+//		emp1.salary = -34000;
+		emp1.setValue("John", 34000);
+		emp1.display();
+	}
+
+}

@@ -1,0 +1,10 @@
+package encapsulation;
+
+public class Employee {
+	String name;
+	float salary;
+	void display() {
+		System.out.println("name is "+name);
+		System.out.println("Salary is "+salary);
+	}
+}
