@@ -1,8 +1,0 @@
-package encapsulation;
-
-public class Customer {
-private int cid;
-private String cname;
-private int age;
-
-}
