@@ -5,7 +5,8 @@ import com.company.app.repository.EmployeeRepository;
 
 public class EmployeeRepositoryImpl implements EmployeeRepository {
 
-    private static Employee[] database = new Employee[10];
+    private static Employee[] database = new Employee[10];	// in memory db. 
+    
     private static int index = 0;
 
     @Override

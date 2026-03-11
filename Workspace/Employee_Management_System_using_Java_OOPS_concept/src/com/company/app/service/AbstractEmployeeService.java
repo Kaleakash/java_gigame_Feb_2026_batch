@@ -4,8 +4,7 @@ import com.company.app.bean.Employee;
 import com.company.app.repository.EmployeeRepository;
 import com.company.app.repository.impl.EmployeeRepositoryImpl;
 
-public abstract class AbstractEmployeeService
-        implements EmployeeService {
+public abstract class AbstractEmployeeService implements EmployeeService {
 
     protected EmployeeRepository repository;
 
@@ -13,13 +12,15 @@ public abstract class AbstractEmployeeService
         this.repository = new EmployeeRepositoryImpl();
     }
 
+    // own method 
     protected boolean isValidEmployee(Employee employee) {
         return employee != null &&
                employee.getId() > 0 &&
                employee.getSalary() > 0;
     }
 
-    protected Employee findEmployee(int id) {
+    // provided body for interface method (optioa
+    public Employee findEmployee(int id) {
         return repository.getEmployeeById(id);
     }
 }

@@ -13,4 +13,7 @@ public interface EmployeeService {
     void updateSalary(int id, double salary);
 
     void deleteEmployee(int id);
+    
+    Employee findEmployee(int id);
+    
 }

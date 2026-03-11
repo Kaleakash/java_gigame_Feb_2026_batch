@@ -2,4 +2,11 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="encapsulation.Employee"/>
     <fullyQualifiedTypeName name="polymorphism.Operation"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.lang.Enum"/>
+    <fullyQualifiedTypeName name="com.bean.Employee"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ExecutionException"/>
+    <fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
 </qualifiedTypeNameHistroy>
