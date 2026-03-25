@@ -9,4 +9,6 @@
     <fullyQualifiedTypeName name="com.bean.Employee"/>
     <fullyQualifiedTypeName name="java.util.concurrent.ExecutionException"/>
     <fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="com.MyResource"/>
 </qualifiedTypeNameHistroy>
