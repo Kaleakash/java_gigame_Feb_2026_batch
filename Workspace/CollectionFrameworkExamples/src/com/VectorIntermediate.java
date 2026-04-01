@@ -8,9 +8,9 @@ public class VectorIntermediate {
 
 	public static void main(String[] args) throws Exception{
 			   
-	    // Vector<Integer> v = new Vector<>();
-		//ArrayList<Integer> v = new ArrayList<Integer>();
-		   LinkedList<Integer> v = new LinkedList<Integer>();
+	    //Vector<Integer> v = new Vector<>();
+		ArrayList<Integer> v = new ArrayList<Integer>();
+		  // LinkedList<Integer> v = new LinkedList<Integer>();
 		      long start = System.nanoTime();
 		        Thread t1 = new Thread(() -> {
 		            for (int i = 0; i < 1000; i++) v.add(i);
