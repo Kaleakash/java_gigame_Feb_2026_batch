@@ -51,4 +51,9 @@
     <fullyQualifiedTypeName name="java.util.concurrent.ConcurrentLinkedQueue"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.concurrent.DelayQueue"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="com.lambda.HelloImp"/>
+    <fullyQualifiedTypeName name="com.lambda.MyPredicate"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+    <fullyQualifiedTypeName name="com.lambda.Calculator"/>
 </qualifiedTypeNameHistroy>
